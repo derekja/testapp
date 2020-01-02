@@ -5,7 +5,7 @@ import { Story } from "inkjs";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App">s
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
