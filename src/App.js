@@ -1,7 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Story } from "inkjs";
+import { Story } from 'inkjs';
+import storyContent from "./intercept.ink.json";
+export const ink = new Story(storyContent);
 
 function App() {
   return (
